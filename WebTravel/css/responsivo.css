@@ -1,0 +1,117 @@
+@media screen and (max-width: 900px) {
+    header .menu-desktop, header .btn-contato{
+        display: none;
+    }
+
+    header .btn-menu-mob{
+        display: block;
+    }    
+
+}
+
+@media screen and (max-width: 878px){
+    .hero-site .txt-hero h1{
+        font-size: 2.5em;
+        line-height: 45px;
+    }
+        
+    .hero-site .txt-hero p{
+        font-size: 14px;
+        margin: 20px 0;
+    }
+    
+    .hero-site .txt-hero span{
+        display: inline;
+    }
+    
+    .hero-site button{
+        font-size: 18px;
+    }
+
+    
+    .vantagens .itens-container{
+        flex-direction: column;
+    }
+    
+    .vantagens .itens-container .img-itens img{
+       width: 100%;
+    }
+
+    .vantagens .itens-container .txt-itens p{
+        margin-bottom: 20px;
+    }
+
+    .vantagens .itens-container .item-1{
+        order: 1;
+    }
+
+    .vantagens .itens-container .item-2{
+        order: 0;
+    }
+        
+    /* CONTATO */
+    
+    .txt-contato, .icons-contato{
+        display: block;
+        width: 100%;
+    }
+    
+    .contato .txt-contato h3{
+        font-size: 1.5em;
+        line-height: 40px;
+    }
+
+    .contato .txt-contato p{
+        margin-bottom: 20px;
+    }
+            
+    .contato .icons-contato button{
+        width: 100%;
+    }
+
+
+    /* HOTEIS     */
+        
+    .hoteis h3{
+        font-size: 2em;
+        line-height: 40px;
+    }
+        
+    .hoteis p{
+        font-size: 16px;
+    }
+
+    /* COMO */
+    
+    .txt-como, .instrucoes{
+        display: block;
+        width: 100%;
+    }
+    
+    .como .txt-como{
+        position: static;
+    }
+    
+    .como .txt-como h3{
+        font-size: 3em;
+        line-height: 50px;
+    }
+    
+    .instrucoes .instru-box{
+        flex-direction: column;
+        text-align: center;
+    }
+               
+    /* FOOTER */
+    
+    
+    footer .middle a{
+        margin: 10px;
+    }
+    
+    
+    footer .bottom-footer p{
+        font-size: 14px;
+    }
+
+}
